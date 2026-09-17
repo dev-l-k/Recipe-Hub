@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:whitesmoke;
+    color:#222;
+
+}
+header{
+    background: #ff7043;
+    color:white;
+    padding: 35px 20px;
+    text-align: center;
+
+    
+}
+header h1{
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+header p{
+    opacity:0.9;
+}
+.search{
+    max-width: 700px;
+    margin: -20px auto 25px auto;
+    display: flex;
+    padding:0 15px;
+}
+.search input{
+    width:100%;
+    padding:15px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size:16px;
+    outline:none;
+}
+.search button{
+    border: none;
+    background: #333;
+    color:white;
+    padding: 0 22px;
+    border-radius: 0 10px 10px 0;
+    cursor:pointer;
+}
+.categories {
+    display:flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 20px 20px;
+    justify-content: center;
+
+}
+.categories button{
+    border: 1px solid #ddd;
+    background:white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.categories button:hover{
+    background:#ff7043;
+    color: white;
+}
+#recipes{
+    max-width: 1100px;
+    margin:auto;
+    padding: 10px 20px 40px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+.random{
+    display:block;
+    margin: 5px auto 25px auto;
+    background:#333;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#message{
+    text-align: center;
+    padding: 25px;
+    color:#666;
+    
+}
