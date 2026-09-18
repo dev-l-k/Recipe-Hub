@@ -178,3 +178,12 @@ header p{
         height: 200px;
     }
 }
+footer{
+    padding: 30px 20px;
+    text-align: center;
+
+    color:#777788;
+    font-size: 13px;
+    border-top: 1px solid #333344;
+
+}
