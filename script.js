@@ -27,7 +27,7 @@ async function randomRecipe() {
     showMessage("Finding Recipe...");
     try{
         const response = await fetch(API+"random.php");
-        const data = await data.json();
+        const data = await response.json();
         openRecipe(data.meals[0].idMeal);
     }catch{
         showMessage("Smething went wrong");
