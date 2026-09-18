@@ -92,3 +92,4 @@ function showMessage(text){
     message.style.display = "block";
     document.getElementById("recipes").innerHTML="";
 }
+loadCategory("Chicken");
